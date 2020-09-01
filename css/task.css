@@ -1,0 +1,221 @@
+* {
+    box-sizing: border-box;
+}
+
+p {
+    text-align: center;
+}
+
+body {
+    background: white;
+    color: black;
+}
+
+.col-1 {width: 8.33%;}
+.col-2 {width: 16.66%;}
+.col-3 {width: 25%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;}
+
+.name_header {width: 8.33%;}
+.date_header {width: 8.33%;}
+.id_header {width: 8.33%;}
+
+.name_content {width: 8.33%;}
+.date_content {width: 8.33%;}
+.id_content {width: 8.33%;}
+
+.blank {
+    border: none;
+}
+
+.with_border {
+    border: 1px solid black;
+}
+
+.heading {
+    float: top;
+}
+
+.button {
+    text-align: center;
+}
+
+[class*="col-"] {
+    float: left;
+    padding: 10px;
+    display: inline-block;
+}
+
+textarea {
+    width: 768px;
+    resize: none;
+}
+
+.no_bottom {
+    padding-bottom: 0;
+}
+
+.no_top {
+    padding-top: 0;
+}
+
+.select_task {
+    margin-left: 61.8px;
+    margin-top: 10px
+}
+
+.select_box {
+    height: 72px
+}
+
+.task_box {
+    height: 72px;
+}
+
+.task_name {
+    margin-bottom: 5px;
+    margin-top: 0;
+    text-decoration: underline black;
+}
+
+.task_desc {
+    margin-top: 0;
+}
+
+.edit_button {
+    display: block;
+    height: 72px;
+    float: left;
+}
+
+.delete_button {
+    display: block;
+    height: 72px;
+    float: left;
+}
+@media only screen and (max-width: 768px) {
+    [class*="col-"] {
+        display: block;
+        width: 100%;
+    }
+
+    .name_header {width: 25%;}
+    .date_header {width: 25%;}
+    .id_header {width: 25%;}
+
+    .name_content {
+        width: 30%;
+        padding-left: 0;
+        padding-right: 0;
+        height: 20px;
+        font-size: 12px
+    }
+
+    .date_content {
+        width: 40%;
+        word-break: break-word;
+        padding-left: 2px;
+        padding-right: 0;
+        font-size: 12px;
+    }
+
+    .id_content {
+        width: 10%;
+        padding-left: 0;
+        padding-right: 0;
+        font-size: 12px;
+    }
+
+    .checkbox_content {
+        position: absolute;
+        left: 80%;
+        top: -4%;
+        width: 10%;
+        transform: scale(0.833333333);
+        padding: 0;
+    }
+
+    .task_select_title {
+        display: block;
+        width: 20%;
+        height: 91px;
+    }
+
+    textarea {
+        width: 100%;
+        resize: none;
+    }
+
+    .name_title {
+        display: block;
+        width: 80%;
+        height: 91px;
+        align-content: center;
+        padding: 18px 0
+    }
+
+    .edit_button {
+        display: block;
+        width: 50%;
+        float: left;
+    }
+
+    .delete_button {
+        display: block;
+        width: 50%;
+        float: left;
+    }
+
+    .select_task {
+        margin-top: 10px;
+        margin-left: 15px;
+    }
+
+    .select_box {
+        height: 72px;
+        width: 20%;
+    }
+
+    .task_box {
+        height: 72px;
+        width: 80%
+    }
+
+    .state_box {
+        height: 72px;
+        width: 20%
+    }
+
+    .is_done {
+        height: 72px;
+        width: 20%
+    }
+
+    .check_button {
+        height: 50px;
+        width: 100%
+    }
+
+    .back_button {
+        height: 72px;
+        width: 100%
+    }
+
+    .mobile_border {
+        border: 1px solid black;
+    }
+}
+
+.row::after{
+    content: "";
+    clear: both;
+    display: table;
+}

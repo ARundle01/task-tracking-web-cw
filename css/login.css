@@ -1,0 +1,32 @@
+* {
+    box-sizing: border-box;
+}
+
+.col-1 {width: 8.33%;}
+.col-2 {width: 16.66%;}
+
+[class *= "column-"] {
+    float: left;
+    padding-left: 15px;
+}
+
+.register_title {
+    margin-top: 21.43px;
+}
+
+.register_form {
+    margin-bottom: 0px;
+}
+
+@media only screen and (max-width: 768px) {
+    [class *= "col-"] {
+        display: block;
+        width: 100%;
+    }
+}
+
+.row::after{
+    content: "";
+    clear: both;
+    display: table;
+}
