@@ -1,5 +1,10 @@
 # task-tracking-web-cw
 
+![GitHub](https://img.shields.io/github/license/ARundle01/task-tracking-web-cw)
+![GitHub repo size](https://img.shields.io/github/repo-size/ARundle01/task-tracking-web-cw)
+![GitHub top language](https://img.shields.io/github/languages/top/ARundle01/task-tracking-web-cw)
+![GitHub language count](https://img.shields.io/github/languages/count/ARundle01/task-tracking-web-cw)
+
 A web application which tracks tasks using database storage and a Web API. This is a piece of coursework and is not guaranteed to function or be secure.
 
 ## What is this Project?
